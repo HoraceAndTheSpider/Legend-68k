@@ -1,0 +1,104 @@
+;****************************
+
+(set #last-disk 1)          ;amount of disks
+(set #dest "data/")
+
+;****************************
+;----------------------------
+; Checks if given program is reachable via the path
+; if not abort install
+; IN:  #program - to check
+; OUT: -
+
+(procedure P_chkrun
+  (if
+    (= 0 (run ("cd SYS:\nWhich %s" #program)))
+    ("")
+    (abort ("You must install \"%s\" first !\nIt must be accessible via the path.\nYou can find it in the whdload package." #program))
+  )
+)
+
+;----------------------------
+; Create disk-Image using DIC
+; IN:  #dest        - DestinationPath
+;      #CI_diskname - DiskName
+;      #CI_diskno   - DiskNumber
+;      #CI_drive    - DriveToReadFrom
+; OUT: -
+
+(procedure P_image
+  (message ("\nInsert \"%s\" into drive %s !\n\n(make sure it's the right disk because it will not be checked)\n\nPlease wait while screen goes black." #CI_diskname #CI_drive))
+  (if
+    (= 0 (run ("cd \"%s\"\nDIC %s FD=%ld LD=%ld >con:///1000//CLOSE" #dest #CI_drive #CI_diskno #CI_diskno)))
+    ("")
+    (abort "\"DIC\" has failed to create a diskimage")
+  )
+)
+
+;****************************
+
+(set #program "WHDLoad")
+(P_chkrun)
+
+(set #program "DIC")
+(P_chkrun)
+
+; in expert mode ask for source drive
+(if
+  (= @user-level 2)
+  (
+    (set #CI_drive
+      (askchoice
+	(prompt "Select source drive for diskimages")
+	(default 0)
+	(choices "DF0:" "DF1:" "RAD:" "Enter Device")
+	(help @askchoice-help)
+      )
+    )
+    (if
+      (= #CI_drive 0)
+      (set #CI_drive "DF0:")
+    )
+    (if
+      (= #CI_drive 1)
+      (set #CI_drive "DF1:")
+    )
+    (if
+      (= #CI_drive 2)
+      (set #CI_drive "RAD:")
+    )
+    (if
+      (= #CI_drive 3)
+      (set #CI_drive
+        (askstring
+          (prompt "Select source drive for diskimages")
+          (default "DF0:")
+          (help @askstring-help)
+        )
+      )
+    )
+  )
+  (
+    (set #CI_drive "DF0:")
+  )
+)
+
+;----------------------------
+
+(set #CI_diskno 1)
+(while
+  (<= #CI_diskno #last-disk)
+  (
+    (set #CI_diskname ("Legend Save Disk"))
+    (P_image)
+    (set #CI_diskno (+ #CI_diskno 1))
+  )
+)
+
+;----------------------------
+
+    (run ("whdload getlegendsavedisk.slave PRELOAD"))
+    (run ("delete data/disk.1"))
+
+(exit)
+

@@ -1,0 +1,94 @@
+file	packed_size	blocks	unpacked_size	block_unpacked_sizes	png_status	png
+PACS/A00.PAC	5827	2	9714	4857,4857	Axx scene: 1 x 160x96 base image(s), 24 overlay graphics + positioned frames	png/PACS/A00/A00_base_160x96.png
+PACS/A01.PAC	9769	4	14838	3709,2782,4173,4174	Axx scene: 1 x 160x96 base image(s), 29 overlay graphics + positioned frames	png/PACS/A01/A01_base_160x96.png
+PACS/A02.PAC	8949	4	10742	2685,4028,2014,2015	Axx scene: 1 x 160x96 base image(s), 25 overlay graphics + positioned frames	png/PACS/A02/A02_base_160x96.png
+PACS/A03.PAC	8141	6	10338	2584,1938,1454,1090,1636,1636	Axx scene: 1 x 160x96 base image(s), 31 overlay graphics + positioned frames	png/PACS/A03/A03_base_160x96.png
+PACS/A04.PAC	8811	6	10684	2671,2003,1502,1127,1690,1691	Axx scene: 1 x 160x96 base image(s), 14 overlay graphics + positioned frames	png/PACS/A04/A04_base_160x96.png
+PACS/A05.PAC	6940	3	9852	4926,2463,2463	Axx scene: 1 x 160x96 base image(s), 23 overlay graphics + positioned frames	png/PACS/A05/A05_base_160x96.png
+PACS/A06.PAC	8980	4	12676	3169,2376,1782,5349	Axx scene: 1 x 160x96 base image(s), 42 overlay graphics + positioned frames	png/PACS/A06/A06_base_160x96.png
+PACS/A07.PAC	8943	3	12580	3145,4717,4718	Axx scene: 1 x 160x96 base image(s), 57 overlay graphics + positioned frames	png/PACS/A07/A07_base_160x96.png
+PACS/A08.PAC	10781	7	14612	3653,1369,1198,1049,917,3213,3213	Axx scene: 1 x 160x96 base image(s), 35 overlay graphics + positioned frames	png/PACS/A08/A08_base_160x96.png
+PACS/A09.PAC	11195	5	16660	4165,3123,2343,3514,3515	Axx scene: 1 x 160x96 base image(s), 26 overlay graphics + positioned frames	png/PACS/A09/A09_base_160x96.png
+PACS/A0A.PAC	9122	4	11830	2957,2218,3327,3328	Axx scene: 1 x 160x96 base image(s), 12 overlay graphics + positioned frames	png/PACS/A0A/A0A_base_160x96.png
+PACS/A0B.PAC	9017	4	14046	3511,2633,3951,3951	Axx scene: 1 x 160x96 base image(s), 30 overlay graphics + positioned frames	png/PACS/A0B/A0B_base_160x96.png
+PACS/A0C.PAC	6834	4	12026	3006,2255,3382,3383	Axx scene: 1 x 160x96 base image(s), 14 overlay graphics + positioned frames	png/PACS/A0C/A0C_base_160x96.png
+PACS/A0D.PAC	8388	5	11710	2927,2195,1647,2470,2471	Axx scene: 1 x 160x96 base image(s), 17 overlay graphics + positioned frames	png/PACS/A0D/A0D_base_160x96.png
+PACS/A0E.PAC	7755	3	13224	3306,4959,4959	Axx scene: 1 x 160x96 base image(s), 34 overlay graphics + positioned frames	png/PACS/A0E/A0E_base_160x96.png
+PACS/A0F.PAC	8176	5	9740	2435,3652,913,1370,1370	Axx scene: 1 x 160x96 base image(s), 20 overlay graphics + positioned frames	png/PACS/A0F/A0F_base_160x96.png
+PACS/A10.PAC	12264	7	17410	4352,3264,2448,1836,1377,2066,2067	Axx scene: 2 x 160x96 base image(s), 12 overlay graphics + positioned frames	png/PACS/A10/A10_base_160x96.png
+PACS/ANBORD.PAC	1188	1	1768	1768	raw-only	
+PACS/ANIMBORD.PAC	1173	1	1768	1768	raw-only	
+PACS/F0.PAC	22743	10	35818	2238,4197,3672,3213,2812,4921,3691,2768,4153,4153	127 descriptor-driven interleaved-planar isometric graphics (101-126 supplied by F2 set 1)	png/PACS/F0/F0_000_48x32_meta_0a_08.png
+PACS/F1.PAC	22498	9	35818	2238,4197,3672,3213,5624,4218,3164,4746,4746	127 descriptor-driven interleaved-planar isometric graphics (101-126 supplied by F2 set 1)	png/PACS/F1/F1_000_48x32_meta_0a_08.png
+PACS/F2.PAC	14212	5	24408	6102,4576,6865,3432,3433	71 architectural graphics: 26 in set1, 26 in set2, 19 in set3; 8-byte trailing control/tail preserved	png/PACS/F2/set1/F2_set1_101_48x46_meta_10_e8.png
+PACS/PARTY.PAC	11418	4	32000	16000,4000,3000,9000	320x200 Amiga plane-major	png/PACS/PARTY.png
+PACS/TILES2.PAC	15862	6	22720	2840,2485,4348,6523,3262,3262	355 x 16x8 interleaved-planar tiles	png/PACS/TILES2_atlas.png
+PACS/TILESX.PAC	11758	6	14336	3584,2688,4032,2016,1008,1008	224 x 16x8 interleaved-planar tiles	png/PACS/TILESX_atlas.png
+PACS/UINV.PAC	1708	1	2816	2816	128x44 Amiga plane-major	png/PACS/UINV.png
+PACS/WORLD.PAC	20675	16	22019	1376,1290,1209,1134,1063,1993,1744,1526,1335,1168,2045,1534,1150,1726,863,863	raw-only	
+PACS/spelbits.pac	29718	16	36861	2303,1079,2092,3923,3433,6007,4506,1689,2957,1109,970,849,1486,1114,1672,1672	raw-only	
+PRUMS/R00.PAC	1130	1	2048	2048	raw-only	
+PRUMS/R01.PAC	1060	1	2048	2048	raw-only	
+PRUMS/R10.PAC	1044	1	2048	2048	raw-only	
+PRUMS/R11.PAC	986	1	2048	2048	raw-only	
+PRUMS/R12.PAC	1019	1	2048	2048	raw-only	
+PRUMS/R13.PAC	1085	1	2048	2048	raw-only	
+PRUMS/R14.PAC	874	1	2048	2048	raw-only	
+PRUMS/R15.PAC	1017	1	2048	2048	raw-only	
+PRUMS/R16.PAC	919	1	2048	2048	raw-only	
+PRUMS/R17.PAC	1059	1	2048	2048	raw-only	
+PRUMS/R20.PAC	1089	1	2048	2048	raw-only	
+PRUMS/R21.PAC	1060	1	2048	2048	raw-only	
+PRUMS/R22.PAC	958	1	2048	2048	raw-only	
+PRUMS/R23.PAC	1010	1	2048	2048	raw-only	
+PRUMS/R24.PAC	507	1	2048	2048	raw-only	
+PRUMS/R30.PAC	1037	1	2048	2048	raw-only	
+PRUMS/R40.PAC	1095	1	2048	2048	raw-only	
+PRUMS/R41.PAC	1059	1	2048	2048	raw-only	
+PRUMS/R50.PAC	1182	1	2048	2048	raw-only	
+PRUMS/R51.PAC	125	1	2048	2048	raw-only	
+PRUMS/R60.PAC	1104	1	2048	2048	raw-only	
+PRUMS/R61.PAC	921	1	2048	2048	raw-only	
+PRUMS/R62.PAC	828	1	2048	2048	raw-only	
+SPIT/M00.PAC	8858	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M00.png
+SPIT/M01.PAC	10559	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M01.png
+SPIT/M02.PAC	10943	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M02.png
+SPIT/M03.PAC	8440	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M03.png
+SPIT/M04.PAC	10272	6	15360	3840,2880,2160,1620,2430,2430	96x320 Amiga plane-major	png/SPIT/M04.png
+SPIT/M05.PAC	9362	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M05.png
+SPIT/M06.PAC	7779	2	15360	7680,7680	96x320 Amiga plane-major	png/SPIT/M06.png
+SPIT/M07.PAC	8223	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M07.png
+SPIT/M08.PAC	8867	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M08.png
+SPIT/M09.PAC	9062	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M09.png
+SPIT/M0A.PAC	8291	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M0A.png
+SPIT/M0B.PAC	9053	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M0B.png
+SPIT/M0C.PAC	6815	2	15360	7680,7680	96x320 Amiga plane-major	png/SPIT/M0C.png
+SPIT/M0D.PAC	8515	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M0D.png
+SPIT/M0E.PAC	8969	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M0E.png
+SPIT/M0F.PAC	8935	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M0F.png
+SPIT/M10.PAC	6846	2	15360	7680,7680	96x320 Amiga plane-major	png/SPIT/M10.png
+SPIT/M11.PAC	7919	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M11.png
+SPIT/M12.PAC	8512	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M12.png
+SPIT/M13.PAC	8744	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M13.png
+SPIT/M14.PAC	7590	2	15360	7680,7680	96x320 Amiga plane-major	png/SPIT/M14.png
+SPIT/M15.PAC	7698	1	15360	15360	96x320 Amiga plane-major	png/SPIT/M15.png
+SPIT/M16.PAC	8037	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M16.png
+SPIT/M17.PAC	9555	5	15360	1920,1680,2940,4410,4410	96x320 Amiga plane-major	png/SPIT/M17.png
+SPIT/M18.PAC	9325	5	15360	3840,2880,4320,2160,2160	96x320 Amiga plane-major	png/SPIT/M18.png
+SPIT/M19.PAC	10131	5	15360	3840,1440,5040,2520,2520	96x320 Amiga plane-major	png/SPIT/M19.png
+SPIT/M1A.PAC	8647	3	15360	7680,3840,3840	96x320 Amiga plane-major	png/SPIT/M1A.png
+SPIT/M1B.PAC	8441	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M1B.png
+SPIT/M1C.PAC	8113	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M1C.png
+SPIT/M1D.PAC	9842	4	15360	3840,2880,4320,4320	96x320 Amiga plane-major	png/SPIT/M1D.png
+SPIT/M1E.PAC	8431	3	15360	7680,3840,3840	96x320 Amiga plane-major	png/SPIT/M1E.png
+SPIT/M1F.PAC	8470	3	15360	3840,5760,5760	96x320 Amiga plane-major	png/SPIT/M1F.png
+SPIT/M20.PAC	7935	3	15360	7680,3840,3840	96x320 Amiga plane-major	png/SPIT/M20.png
+SPIT/M21.PAC	8648	2	15360	7680,7680	96x320 Amiga plane-major	png/SPIT/M21.png
+SPIT/M80.PAC	731	1	1024	1024	raw-only	
+SPIT/M81.PAC	870	1	1024	1024	raw-only	
+SPIT/M82.PAC	687	1	1024	1024	raw-only	
+SPIT/M83.PAC	291	1	1024	1024	raw-only	
+SPIT/M84.PAC	210	1	1024	1024	raw-only	
+SPIT/M85.PAC	229	1	1024	1024	raw-only	
+SPIT/M86.PAC	382	1	1024	1024	raw-only	
+SPIT/M87.PAC	630	1	1024	1024	raw-only	
